@@ -1,0 +1,62 @@
+Chicago insurance redlining 
+
+Description (source: Andrews and Herzberg (1985))
+
+Several communities in Chicago claimed that insurance companies 
+were redlining their neighborhoods. 
+(Redlining = canceling insurance policies or refusing to renew)
+
+
+In a study of insurance availability in Chicago, the U.S. Commission on Civil Rights 
+attempted to examine charges by several community organizations 
+that insurance companies were redlining their neighborhoods, 
+i.e. canceling policies or refusing to insure or renew. 
+
+First the Illinois Department of Insurance provided the number of cancellations, 
+non-renewals, new policies, and renewals of homeowners and residential fire insurance 
+policies by ZIP code for the months of December 1977 through February 1978. 
+The companies that provided this information account for more than 70% of the homeowners 
+insurance policies written in the City of Chicago. 
+The department also supplied the number of FAIR plan policies written an renewed in Chicago 
+by zip code for the months of December 1977 through May 1978. Since most FAIR plan 
+policyholders secure such coverage only after they have been rejected by the voluntary market, 
+rather than as a result of a preference for that type of insurance, 
+the distribution of FAIR plan policies is another measure of insurance availability in the voluntary market.
+
+Secondly, the Chicago Police Department provided crime data, by beat, on all thefts for 
+the year 1975. Most Insurance companies claim to base their underwriting activities on loss 
+data from the preceding years, i.e. a 2-3 year lag seems reasonable for analysis purposes. 
+The Chicago Fire Department provided similar data on fires occurring during 1975. 
+These fire and theft data were organized by zip code.
+
+Finally the US Bureau of the census supplied data on racial composition, income and age 
+and value of residential units for each ZIP code in Chicago. 
+
+To adjust for these differences in the populations size associated with different ZIP code areas, 
+the theft data were expressed as incidents per 1,000 population and the fire and 
+insurance data as incidents per 100 housing units.
+
+
+The variables are
+
+     zipcode:
+     race: racial composition in percent minority
+     fire: fires per 100 housing units in 1975
+     theft: theft per 1000 population in 1975
+     age: percent of housing units built before 1939
+     vol : new homeowner policies plus renewals minus cancellations and non renewals 
+           per 100 housing units
+     invol: involuntary market activity variable - 
+            (number of getting) new FAIR plan policies and renewals per 100 housing units
+            in the first half of 1978 (FAIR plan policies are mostly 
+            given after normal insurance is denied).
+            This seems to be the best measure of those who are denied insurance by others, 
+            though it is not a perfect measure because some who are denied insurance may 
+            give up and others still may not try at all for that reason.
+     income: median family income
+
+
+
+ 
+
+ 
